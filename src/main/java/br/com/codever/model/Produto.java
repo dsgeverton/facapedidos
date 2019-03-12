@@ -30,6 +30,8 @@ public class Produto implements Serializable {
 	
 	private float valor;
 
+	private String imageURL;
+	
 	public long getId() {
 		return id;
 	}
@@ -68,6 +70,14 @@ public class Produto implements Serializable {
 
 	public void setValor(float valor) {
 		this.valor = valor;
+	}
+
+	public String getImageURL() {
+		return imageURL;
+	}
+
+	public void setImageURL(String imageURL) {
+		this.imageURL = imageURL;
 	}
 	
 }
